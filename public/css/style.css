@@ -1,0 +1,76 @@
+body {
+    font-family: arial, sans-serif;
+    background-image: url('../img/googlekeepbackground.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.keep-header {
+    margin-left: 130px;
+}
+
+.essayergooglekeepbtn:hover {
+    background-image: linear-gradient(0deg, #698df6 0%, #5f81f6 100%);
+}
+
+.keep-header p {
+    font-size: 53px !important;
+    padding-top: 180px;
+    font-family: "open sans", arial, sans-serif;
+}
+
+.bg-white {
+    margin-top: 120px;
+    padding-top: 50px;
+}
+
+hr.stylehr {
+    margin-top: 140px;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    text-align: center;
+    font-family: cursive;
+}
+
+.listcadeau {
+    position: absolute;
+    top: 50%;
+    font-size: 14px;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    font-family: cursive;
+}
+
+.listcadeau li {
+    list-style: none;
+}
+
+.icon-list {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    color: gray;
+}
+
+.icon-list:hover {
+    color: #698df6;
+    cursor: pointer;
+}
+
+.microphonecard {
+    position: absolute;
+    top: 15%;
+    font-size: 18px;
+    font-weight: bold;
+    left: 40%;
+}
